@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="initial-scale=1">
+</head>
+<body class="<%nativeBadge%>">
+	
+	<div class="info-container">
+	<header>
+			<h1><%animalName%></h1>
+			<h2><%translatedName%></h2>
+			<h3><%scientificName%></h3>
+			<div class="nativeBadge"><%nativeBadge%></div>
+			<h4><%identifyingCharacteristics%></h4>
+		</header>
+	<div class="column">
+		
+		<h5 class="<%commonNamesClass%>">Other Common Names</h5>
+		<p class="<%commonNamesClass%>"><%commonNames%></p>
+
+		<h5 class="<%distinctiveClass%>">Fast Facts</h5>
+		<p><%distinctive%></p>
+
+
+		<h5 class="<%biologyClass%>">Biology</h5>
+		<p><%biology%></p>
+
+		<h5 class="<%dietClass%>">Diet</h5>
+		<p><%diet%></p>
+
+	</div>
+		<table>
+			<tr><th colspan="2"><h5>Taxonomy</h5></th></tr>
+			<tr><td><small>Phylum:</small></td><td><%phylum%></td></tr>
+			<tr><td><small>Class:</small></td><td><%class%></td></tr>
+			<tr><td><small>Order:</small></td><td><%order%></td></tr>
+			<tr><td><small>Family:</small></td><td><%family%></td></tr>
+			<tr><td><small>Genus:</small></td><td><em><%genus%></em></td></tr>
+			<tr><td><small>Species:</small></td><td><em><%species%></em></td></tr>
+		</table>
+	</div>
+	
+</body>
+</html>

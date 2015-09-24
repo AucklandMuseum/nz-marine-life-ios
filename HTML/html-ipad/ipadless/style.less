@@ -1,0 +1,358 @@
+/* Font Weights */
+@light: 200;
+@regular: 400;
+@medium: 500;
+
+/* Colors */
+@black: rgb(51, 51, 51);
+@medium-grey: rgb(127, 127, 127);
+@soft-grey: rgb(153, 153, 153);
+@lighter-grey: rgb(195, 195, 195);
+@light-grey: rgb(229, 229, 229);
+@white: rgb(255, 255, 255);
+@red: rgb(255, 35, 0);
+@orange: rgb(255, 102, 0);
+@green: rgb(100, 215, 0);
+@ios-blue: rgb(0, 122, 255);
+
+/* Breakpoints */
+@iphone-6-plus-width: 414px;
+@iphone-5-width-landscape: 568px;
+@iphone-6-width-landscape: 667px;
+
+/* Media Queries */
+@vp-single-column:%(~"(max-width: %a)", @iphone-5-width-landscape);
+@vp-two-column:%(~"(min-width: %a)", (@iphone-5-width-landscape + 1px));
+
+*{
+	box-sizing: border-box;
+}
+
+html,
+body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: @white;
+	color: @black;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: @regular;
+}
+
+/* Hide unused fields */
+.invisible {
+    display: none;
+}
+
+img{
+	width: 100%;
+}
+
+img.inline{
+	margin-top: 6px;
+}
+
+header{
+	text-align: center;
+}
+.info-container{
+	width: 100%;
+	padding: 0px 32px;
+
+	@media @vp-single-column{
+		padding: 0px 12px;
+	}
+
+	.column{
+		width:50%;
+		float: left;
+		padding-right: 2em;
+		padding-bottom: 60px;
+
+		@media @vp-single-column{
+			width: 100%;
+			padding-right: 0em;
+			padding-bottom: 0;
+		}
+	}
+}
+
+.native-constants{
+	content: 'NATIVE';
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 4px 4px 4px 7px;
+	border: 1px solid;
+	border-radius: 2px;
+	font-size: 10px;
+	font-weight: @medium;
+	font-style: normal;
+	color: @black;
+	letter-spacing: 4px;
+	line-height: 12px;
+}
+
+h1{
+	  font-size: 48px;
+	  line-height: 58px;
+	  font-weight: 500;
+	  margin: 0 auto;
+	  letter-spacing: -0.25px;
+	  word-spacing: -2px;
+	  max-width: 80%;
+
+	@media @vp-single-column{
+		font-size: 32px;
+		line-height: 39px;
+	}
+}
+
+.nativeBadge{
+	@media @vp-two-column{
+		.native-constants;
+		margin-top: 16px;
+		margin-left: 32px;
+		position: absolute;
+		display: inline-block;
+	}
+
+	&.below {
+		margin-top: 12px;
+		margin-bottom: 4px;
+		position: static;
+		display: none;
+		margin-left: auto;
+	}
+}
+
+h2{
+	font-size: 21px;
+	line-height: 25px;
+	font-weight: @regular;
+	margin: 12px 0px 0px 0px;
+
+	@media @vp-single-column{
+		font-size: 17px;
+		line-height: 20px;
+		margin: 6px 0px 0px 0px;
+	}
+}
+
+h3{
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: @light;
+	font-style: italic;
+	margin: 12px 0px 0px 0px;
+	color: @soft-grey;
+
+	@media @vp-single-column{
+		font-size: 12px;
+		line-height: 14px;
+		margin: 6px 0px 0px 0px;
+	}
+}
+
+.native h3:after{
+	@media @vp-single-column{
+		.native-constants;
+		display: block;
+		max-width: 60px;
+		margin: 12px auto;
+		color: @black;
+	}
+}
+
+h4{
+	font-size: 20px;
+	color: #333333;
+	letter-spacing: 0.25px;
+	line-height: 30px;
+	font-weight: @light;
+	text-align: left;
+	margin: 12px 0px 0px 0px;
+
+	@media @vp-single-column{
+		font-size: 16px;
+		line-height: 24px;
+		margin: 6px 0px 0px 0px;
+	}
+}
+
+h5{
+	font-size: 14px;
+	color: @medium-grey;
+	line-height: 16px;
+	font-weight: @regular;
+	margin-bottom: 2px;
+}
+
+p{
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 0;
+}
+
+small{
+	font-size: 12px;
+	line-height: 14px;
+}
+
+small.left-col{
+	width: 33%;
+	display: inline-block;
+}
+
+// Conditional Show Hide
+
+table{
+	width: 100%;
+	border-spacing: 0;
+
+
+	tr{
+		line-height: 24px;
+	}
+
+	th{
+		float: left;
+	}
+
+	td{
+		border-top: 1px solid @light-grey;
+		padding-bottom: 5px;
+
+	}
+}
+
+img.info,
+img.close {
+  width: auto;
+  float: right;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+img.close{
+	margin: 6px;
+}
+
+.endangered-status{
+	p{	
+		margin-top: 6px;
+		margin-bottom: 0;
+	}
+}
+
+.track {
+	background-color: @light-grey;
+	width: 100%;
+	height: 6px;
+	margin-bottom: 1em;
+}
+.track span {
+	height: 6px;
+	display: block;
+}
+
+/* red */
+span.Critically.endangered,
+span.Critically.Endangered,
+span.endangered,
+span.Endangered,
+span.threatened,
+span.Threatened {
+	width: 20%;
+	background-color: red;
+	
+}
+
+/* orange */
+span.vulnerable,
+span.Vulnerable,
+span.Near.threatened,
+span.Near.Threatened {
+	width: 60%;
+	background: @orange;
+}
+
+/* green */
+span.Not.threatened,
+span.Not.Threatened,
+span.Least.concern,
+span.Least.Concern {
+	width: 100%;
+	background: green;
+}
+
+.overlay{
+	background-color: @white;
+	opacity: 0.0;
+	position: fixed;
+	top:0;
+	bottom: 0;
+	left:0;
+	right:0;
+	display: block;
+	pointer-events: none;
+	transition: opacity 0.5s;
+
+	&.show{
+		opacity: 0.6;
+		pointer-events: auto;
+	}
+}
+
+.note{	
+	background-color: white;
+	width: 320px;
+	border-radius: 10px;
+	position: absolute;
+	right: 58px;
+	display: none;
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+	border: 1px solid rgba(0,0,0,0.075);
+	background-clip: content-box;
+
+	@media @vp-single-column{
+		right: 12px;
+	}
+
+  h5{
+  	margin-top: 0;
+  	border-bottom: 1px solid @lighter-grey;
+  	text-align: center;
+  	line-height: 32px;
+  	font-size: 17px;
+  	color: @black;
+  	padding-left: 32px;
+
+  }
+
+  .note-body{
+  	padding-top: 12px;
+  }
+
+  p{
+  	padding-left: 12px;
+  	padding-right: 12px;
+  	font-size: 14px;
+  	line-height: 21px;
+  }
+  a{
+  	color: inherit;
+  	display: inline-block;
+  }
+
+  	img.ext-link {
+  		  display: inline-block;
+		  height: 20px;
+		  width: 20px;
+		  margin-top: 2px;
+		  vertical-align: top;
+		  margin-left: 6px;
+	}
+}

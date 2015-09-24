@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="ipadcss/style.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="initial-scale=1">
+	<script type="text/javascript" src="ipadscripts/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="ipadscripts/jquery-scrollto.js"></script>
+	<script type="text/javascript">
+        
+	$( document ).ready(function(){
+		function closeNote(){
+			$('.note').hide();
+			$('.overlay').removeClass('show');
+		}
+
+		$('img.info').click(function() {
+		  var id = $(this).attr('id');
+		  console.log( id );
+		  var noteId = '#' + id + '-note';
+		  console.log( noteId );
+		  $(noteId).show();
+		  $('.overlay').addClass('show');
+		});
+
+		$('.close, .overlay').click(function(){
+			closeNote();
+		});
+	});
+
+	$( document ).ready(function(){
+		var badge = $( "#badge-beside" );
+		var offset = badge.offset();
+		var offsetLeft = offset.left;
+
+		var badgeWidth = $( "#badge-beside" ).outerWidth();
+		var breathingSpace = 16;
+
+		var totalWidth = offsetLeft + badgeWidth + breathingSpace;
+		var windowWidth = $( window ).width();
+
+		if ( totalWidth > windowWidth) {
+			$( "#badge-beside" ).hide();
+			$( ".nativeBadge.below" ).css('display','inline-block');
+		};
+	})
+
+	</script>
+    
+    <script type="text/javascript">
+        window.onload = function() {
+            var body = document.body,
+            html = document.documentElement;
+            
+            var height = html.scrollHeight;
+                                  
+            window.location.href = "ready://" + height;
+        }
+    </script>
+    
+</head>
+</head>
+<body class="native">
+
+	<div class="overlay"></div>
+	<div class="info-container">
+		<header>
+
+			<h1><%animalName%><div id="badge-beside" class="nativeBadge"><%nativeBadge%></div></h1>
+			<div class="nativeBadge below"><%nativeBadge%></div>
+
+			<h2><%translatedName%></h2>
+			<h3><%scientificName%></h3>
+			<h4><%identifyingCharacteristics%></h4>
+		</header>
+	<div class="column">
+		
+		<h5 class="<%commonNamesClass%>">Other Common Names</h5>
+		<p class="<%commonNamesClass%>"><%commonNames%></p>
+
+		<h5 class="<%distinctiveClass%>">Fast Facts</h5>
+		<p><%distinctive%></p>
+
+
+		<h5 class="<%biologyClass%>">Biology</h5>
+		<p><%biology%></p>
+
+		<h5 class="<%dietClass%>">Diet</h5>
+		<p><%diet%></p>
+
+		<h5 class="<%habitatClass%>">Habitat</h5>
+		<p><%habitat%></p>	
+
+
+		
+	</div>
+	
+	<div class="column">
+		<table>
+			<colgroup>
+			    <col style="width: 33%;">
+			</colgroup>
+			<tr><th colspan="2"><h5>Taxonomy</h5></th></tr>
+			<tr><td class="left-col"><small>Phylum:</small></td><td><%phylum%></td></tr>
+			<tr><td class="left-col"><small>Class:</small></td><td><%class%></td></tr>
+			<tr><td class="left-col"><small>Order:</small></td><td><%order%></td></tr>
+			<tr><td class="left-col"><small>Family:</small></td><td><%family%></td></tr>
+			<tr><td class="left-col"><small>Genus:</small></td><td><em><%genus%></em></td></tr>
+			<tr><td class="left-col"><small>Species:</small></td><td><em><%species%></em></td></tr>
+		</table>
+
+		<div id="endangered-status-info-note" class="note">
+			<img class="close" src="ipadimages/icons/close.svg">
+			<h5>Sources</h5>
+			<div class="note-body">
+				<p>
+					National:
+					<a href="http://www.doc.govt.nz/about-us/science-publications/conservation-publications/nz-threat-classification-system/">Department of Conservation Threat Classification List<img class="ext-link" src="ipadimages/icons/ext-link.svg"></a>
+				</p>
+				<p>
+					Worldwide:
+					<a href="http://www.iucnredlist.org/">Worldwide:
+IUCN Red List of Threatened Species<img class="ext-link" src="ipadimages/icons/ext-link.svg"></a>
+				</p>
+			</div>
+		</div>
+
+		<div class="endangered-status">
+			<img class="info" src="ipadimages/icons/info.svg" id="endangered-status-info">
+			<h5>Endangered Status</h5>
+			<p><small class="left-col">National:</small> <%ncs%></p>
+			<div class="track"><span class="<%ncs%>"></span></div>
+			<p><small class="left-col">Worldwide:</small> <%wcs%></p>
+			<div class="track"><span class="<%wcs%>"></span> </div>
+		</div>
+
+		<div id="distribution-info-note" class="note">
+			<img class="close" src="ipadimages/icons/close.svg">
+			<h5>Sources</h5>
+			<div class="note-body">
+				<p>Habitat data for this organism was sourced from peer reviewed scientific literature. Information held in the Auckland War Memorial Museum’s collection management database was also used to create this distribution map.</p>
+			</div>
+		</div>
+
+		<img id="distribution-info" class="info" src="ipadimages/icons/info.svg">
+		<h5>Distribution</h5>
+		<img class="inline" src="<%mapimage%>" />
+		<p><%distribution%></p>
+
+
+		
+
+	</div>
+</div>
+</body>
+</html>

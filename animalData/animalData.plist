@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animalData</key>
+	<array>
+		<dict>
+			<key>class</key>
+			<string>Class</string>
+			<key>commonNames</key>
+			<array>
+				<string>Animal Name</string>
+			</array>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Translated Name</string>
+			</dict>
+			<key>biology</key>
+			<string>raesent tristique lectus orci, quis volutpat eros luctus eu. Praesent mattis purus lacus. Vestibulum iaculis elit ut mattis elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</string>
+			<key>diet</key>
+			<string>Praesent ut iaculis mi, sed pharetra tortor.</string>
+			<key>distinctive</key>
+			<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at convallis metus. Proin a efficitur risus.</string>
+			<key>distribution</key>
+			<string>Vivamus pharetra laoreet diam at dignissim. Suspendisse cursus dolor vitae mi auctor malesuada. Maecenas semper dolor aliquam lectus sodales, et ultricies ante interdum.</string>
+			<key>family</key>
+			<string>Family</string>
+			<key>genus</key>
+			<string>Genus</string>
+			<key>habitat</key>
+			<string>Sed maximus viverra ornare. Donec maximus est a ligula interdum facilisis.</string>
+			<key>identifyingCharacteristics</key>
+			<string>Nam erat quam, elementum feugiat dictum id, imperdiet at libero. Aliquam a velit neque. Maecenas ultrices mi eget eleifend tristique. Nullam in aliquet orci. Etiam neque est, finibus vitae purus vel, efficitur aliquet arcu.</string>
+			<key>mapImage</key>
+			<array>
+				<dict>
+					<key>caption</key>
+					<string>Possible distribution based on habitat</string>
+					<key>filename</key>
+					<string>distribution.jpg</string>
+				</dict>
+			</array>
+			<key>nativeStatus</key>
+			<string>Native</string>
+			<key>ncs</key>
+			<string>Not listed</string>
+			<key>order</key>
+			<string>Order</string>
+			<key>phylum</key>
+			<string>Phylum</string>
+			<key>profileImages</key>
+			<array>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo1.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo2.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo3.jpg</string>
+				</dict>
+			</array>
+			<key>species</key>
+			<string>Species</string>
+			<key>squareCropImage</key>
+			<array>
+				<dict>
+					<key>filename</key>
+					<string>square.jpg</string>
+				</dict>
+			</array>
+			<key>taxonGroup</key>
+			<string>Fishes</string>
+			<key>taxonSubgroup</key>
+			<string>Subgroup</string>
+			<key>wcs</key>
+			<string>Not listed</string>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>Class</string>
+			<key>commonNames</key>
+			<array>
+				<string>Animal Name</string>
+			</array>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Translated Name</string>
+			</dict>
+			<key>biology</key>
+			<string>raesent tristique lectus orci, quis volutpat eros luctus eu. Praesent mattis purus lacus. Vestibulum iaculis elit ut mattis elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</string>
+			<key>diet</key>
+			<string>Praesent ut iaculis mi, sed pharetra tortor.</string>
+			<key>distinctive</key>
+			<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at convallis metus. Proin a efficitur risus.</string>
+			<key>distribution</key>
+			<string>Vivamus pharetra laoreet diam at dignissim. Suspendisse cursus dolor vitae mi auctor malesuada. Maecenas semper dolor aliquam lectus sodales, et ultricies ante interdum.</string>
+			<key>family</key>
+			<string>Family</string>
+			<key>genus</key>
+			<string>Genus</string>
+			<key>habitat</key>
+			<string>Sed maximus viverra ornare. Donec maximus est a ligula interdum facilisis.</string>
+			<key>identifyingCharacteristics</key>
+			<string>Nam erat quam, elementum feugiat dictum id, imperdiet at libero. Aliquam a velit neque. Maecenas ultrices mi eget eleifend tristique. Nullam in aliquet orci. Etiam neque est, finibus vitae purus vel, efficitur aliquet arcu.</string>
+			<key>mapImage</key>
+			<array>
+				<dict>
+					<key>caption</key>
+					<string>Possible distribution based on habitat</string>
+					<key>filename</key>
+					<string>distribution.jpg</string>
+				</dict>
+			</array>
+			<key>nativeStatus</key>
+			<string>Native</string>
+			<key>ncs</key>
+			<string>Not listed</string>
+			<key>order</key>
+			<string>Order</string>
+			<key>phylum</key>
+			<string>Phylum</string>
+			<key>profileImages</key>
+			<array>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo1.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo2.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo3.jpg</string>
+				</dict>
+			</array>
+			<key>species</key>
+			<string>Species</string>
+			<key>squareCropImage</key>
+			<array>
+				<dict>
+					<key>filename</key>
+					<string>square.jpg</string>
+				</dict>
+			</array>
+			<key>taxonGroup</key>
+			<string>Plants</string>
+			<key>taxonSubgroup</key>
+			<string>Subgroup</string>
+			<key>wcs</key>
+			<string>Not listed</string>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>Class</string>
+			<key>commonNames</key>
+			<array>
+				<string>Animal Name</string>
+			</array>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Translated Name</string>
+			</dict>
+			<key>biology</key>
+			<string>raesent tristique lectus orci, quis volutpat eros luctus eu. Praesent mattis purus lacus. Vestibulum iaculis elit ut mattis elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</string>
+			<key>diet</key>
+			<string>Praesent ut iaculis mi, sed pharetra tortor.</string>
+			<key>distinctive</key>
+			<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at convallis metus. Proin a efficitur risus.</string>
+			<key>distribution</key>
+			<string>Vivamus pharetra laoreet diam at dignissim. Suspendisse cursus dolor vitae mi auctor malesuada. Maecenas semper dolor aliquam lectus sodales, et ultricies ante interdum.</string>
+			<key>family</key>
+			<string>Family</string>
+			<key>genus</key>
+			<string>Genus</string>
+			<key>habitat</key>
+			<string>Sed maximus viverra ornare. Donec maximus est a ligula interdum facilisis.</string>
+			<key>identifyingCharacteristics</key>
+			<string>Nam erat quam, elementum feugiat dictum id, imperdiet at libero. Aliquam a velit neque. Maecenas ultrices mi eget eleifend tristique. Nullam in aliquet orci. Etiam neque est, finibus vitae purus vel, efficitur aliquet arcu.</string>
+			<key>mapImage</key>
+			<array>
+				<dict>
+					<key>caption</key>
+					<string>Possible distribution based on habitat</string>
+					<key>filename</key>
+					<string>distribution.jpg</string>
+				</dict>
+			</array>
+			<key>nativeStatus</key>
+			<string>Native</string>
+			<key>ncs</key>
+			<string>Not listed</string>
+			<key>order</key>
+			<string>Order</string>
+			<key>phylum</key>
+			<string>Phylum</string>
+			<key>profileImages</key>
+			<array>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo1.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo2.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo3.jpg</string>
+				</dict>
+			</array>
+			<key>species</key>
+			<string>Species</string>
+			<key>squareCropImage</key>
+			<array>
+				<dict>
+					<key>filename</key>
+					<string>square.jpg</string>
+				</dict>
+			</array>
+			<key>taxonGroup</key>
+			<string>Mammals</string>
+			<key>taxonSubgroup</key>
+			<string>Subgroup</string>
+			<key>wcs</key>
+			<string>Not listed</string>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>Class</string>
+			<key>commonNames</key>
+			<array>
+				<string>Animal Name</string>
+			</array>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Translated Name</string>
+			</dict>
+			<key>biology</key>
+			<string>raesent tristique lectus orci, quis volutpat eros luctus eu. Praesent mattis purus lacus. Vestibulum iaculis elit ut mattis elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</string>
+			<key>diet</key>
+			<string>Praesent ut iaculis mi, sed pharetra tortor.</string>
+			<key>distinctive</key>
+			<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at convallis metus. Proin a efficitur risus.</string>
+			<key>distribution</key>
+			<string>Vivamus pharetra laoreet diam at dignissim. Suspendisse cursus dolor vitae mi auctor malesuada. Maecenas semper dolor aliquam lectus sodales, et ultricies ante interdum.</string>
+			<key>family</key>
+			<string>Family</string>
+			<key>genus</key>
+			<string>Genus</string>
+			<key>habitat</key>
+			<string>Sed maximus viverra ornare. Donec maximus est a ligula interdum facilisis.</string>
+			<key>identifyingCharacteristics</key>
+			<string>Nam erat quam, elementum feugiat dictum id, imperdiet at libero. Aliquam a velit neque. Maecenas ultrices mi eget eleifend tristique. Nullam in aliquet orci. Etiam neque est, finibus vitae purus vel, efficitur aliquet arcu.</string>
+			<key>mapImage</key>
+			<array>
+				<dict>
+					<key>caption</key>
+					<string>Possible distribution based on habitat</string>
+					<key>filename</key>
+					<string>distribution.jpg</string>
+				</dict>
+			</array>
+			<key>nativeStatus</key>
+			<string>Native</string>
+			<key>ncs</key>
+			<string>Not listed</string>
+			<key>order</key>
+			<string>Order</string>
+			<key>phylum</key>
+			<string>Phylum</string>
+			<key>profileImages</key>
+			<array>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo1.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo2.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo3.jpg</string>
+				</dict>
+			</array>
+			<key>species</key>
+			<string>Species</string>
+			<key>squareCropImage</key>
+			<array>
+				<dict>
+					<key>filename</key>
+					<string>square.jpg</string>
+				</dict>
+			</array>
+			<key>taxonGroup</key>
+			<string>Reptiles</string>
+			<key>taxonSubgroup</key>
+			<string>Subgroup</string>
+			<key>wcs</key>
+			<string>Not listed</string>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>Class</string>
+			<key>commonNames</key>
+			<array>
+				<string>Animal Name</string>
+			</array>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Translated Name</string>
+			</dict>
+			<key>biology</key>
+			<string>raesent tristique lectus orci, quis volutpat eros luctus eu. Praesent mattis purus lacus. Vestibulum iaculis elit ut mattis elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</string>
+			<key>diet</key>
+			<string>Praesent ut iaculis mi, sed pharetra tortor.</string>
+			<key>distinctive</key>
+			<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at convallis metus. Proin a efficitur risus.</string>
+			<key>distribution</key>
+			<string>Vivamus pharetra laoreet diam at dignissim. Suspendisse cursus dolor vitae mi auctor malesuada. Maecenas semper dolor aliquam lectus sodales, et ultricies ante interdum.</string>
+			<key>family</key>
+			<string>Family</string>
+			<key>genus</key>
+			<string>Genus</string>
+			<key>habitat</key>
+			<string>Sed maximus viverra ornare. Donec maximus est a ligula interdum facilisis.</string>
+			<key>identifyingCharacteristics</key>
+			<string>Nam erat quam, elementum feugiat dictum id, imperdiet at libero. Aliquam a velit neque. Maecenas ultrices mi eget eleifend tristique. Nullam in aliquet orci. Etiam neque est, finibus vitae purus vel, efficitur aliquet arcu.</string>
+			<key>mapImage</key>
+			<array>
+				<dict>
+					<key>caption</key>
+					<string>Possible distribution based on habitat</string>
+					<key>filename</key>
+					<string>distribution.jpg</string>
+				</dict>
+			</array>
+			<key>nativeStatus</key>
+			<string>Native</string>
+			<key>ncs</key>
+			<string>Not listed</string>
+			<key>order</key>
+			<string>Order</string>
+			<key>phylum</key>
+			<string>Phylum</string>
+			<key>profileImages</key>
+			<array>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo1.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo2.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo3.jpg</string>
+				</dict>
+			</array>
+			<key>species</key>
+			<string>Species</string>
+			<key>squareCropImage</key>
+			<array>
+				<dict>
+					<key>filename</key>
+					<string>square.jpg</string>
+				</dict>
+			</array>
+			<key>taxonGroup</key>
+			<string>Invertebrates</string>
+			<key>taxonSubgroup</key>
+			<string>Subgroup</string>
+			<key>wcs</key>
+			<string>Not listed</string>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>Class</string>
+			<key>commonNames</key>
+			<array>
+				<string>Animal Name</string>
+			</array>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Translated Name</string>
+			</dict>
+			<key>biology</key>
+			<string>raesent tristique lectus orci, quis volutpat eros luctus eu. Praesent mattis purus lacus. Vestibulum iaculis elit ut mattis elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</string>
+			<key>diet</key>
+			<string>Praesent ut iaculis mi, sed pharetra tortor.</string>
+			<key>distinctive</key>
+			<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at convallis metus. Proin a efficitur risus.</string>
+			<key>distribution</key>
+			<string>Vivamus pharetra laoreet diam at dignissim. Suspendisse cursus dolor vitae mi auctor malesuada. Maecenas semper dolor aliquam lectus sodales, et ultricies ante interdum.</string>
+			<key>family</key>
+			<string>Family</string>
+			<key>genus</key>
+			<string>Genus</string>
+			<key>habitat</key>
+			<string>Sed maximus viverra ornare. Donec maximus est a ligula interdum facilisis.</string>
+			<key>identifyingCharacteristics</key>
+			<string>Nam erat quam, elementum feugiat dictum id, imperdiet at libero. Aliquam a velit neque. Maecenas ultrices mi eget eleifend tristique. Nullam in aliquet orci. Etiam neque est, finibus vitae purus vel, efficitur aliquet arcu.</string>
+			<key>mapImage</key>
+			<array>
+				<dict>
+					<key>caption</key>
+					<string>Possible distribution based on habitat</string>
+					<key>filename</key>
+					<string>distribution.jpg</string>
+				</dict>
+			</array>
+			<key>nativeStatus</key>
+			<string>Native</string>
+			<key>ncs</key>
+			<string>Not listed</string>
+			<key>order</key>
+			<string>Order</string>
+			<key>phylum</key>
+			<string>Phylum</string>
+			<key>profileImages</key>
+			<array>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo1.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo2.jpg</string>
+				</dict>
+				<dict>
+					<key>credit</key>
+					<string>John Doe</string>
+					<key>filename</key>
+					<string>photo3.jpg</string>
+				</dict>
+			</array>
+			<key>species</key>
+			<string>Species</string>
+			<key>squareCropImage</key>
+			<array>
+				<dict>
+					<key>filename</key>
+					<string>square.jpg</string>
+				</dict>
+			</array>
+			<key>taxonGroup</key>
+			<string>Birds</string>
+			<key>taxonSubgroup</key>
+			<string>Subgroup</string>
+			<key>wcs</key>
+			<string>Not listed</string>
+		</dict>
+	</array>
+	<key>taxonList</key>
+	<array>
+		<dict>
+			<key>highlightedImage</key>
+			<string>animaltypeicon_fish_selected.png</string>
+			<key>standardImage</key>
+			<string>animaltypeicon_fish.png</string>
+			<key>taxonName</key>
+			<string>Fishes</string>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Ngā Ika</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>highlightedImage</key>
+			<string>animaltypeicon_plants_selected.png</string>
+			<key>standardImage</key>
+			<string>animaltypeicon_plants.png</string>
+			<key>taxonName</key>
+			<string>Plants</string>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Ngā Hua Mātaitai</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>highlightedImage</key>
+			<string>animaltypeicon_mammals_selected.png</string>
+			<key>standardImage</key>
+			<string>animaltypeicon_mammals.png</string>
+			<key>taxonName</key>
+			<string>Mammals</string>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Ngā Ūwhā Mātaitai</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>highlightedImage</key>
+			<string>animaltypeicon_reptiles_selected.png</string>
+			<key>standardImage</key>
+			<string>animaltypeicon_reptiles.png</string>
+			<key>taxonName</key>
+			<string>Reptiles</string>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Ngā Ngārara Mātaitai</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>highlightedImage</key>
+			<string>animaltypeicon_invertebrates_selected.png</string>
+			<key>standardImage</key>
+			<string>animaltypeicon_invertebrates.png</string>
+			<key>taxonName</key>
+			<string>Invertebrates</string>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Ngā Tuaiwi-Kore</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>highlightedImage</key>
+			<string>animaltypeicon_birds_selected.png</string>
+			<key>standardImage</key>
+			<string>animaltypeicon_birds.png</string>
+			<key>taxonName</key>
+			<string>Birds</string>
+			<key>translatedName</key>
+			<dict>
+				<key>mi_NZ</key>
+				<string>Ngā Manu</string>
+			</dict>
+		</dict>
+	</array>
+	<key>versionID</key>
+	<string>2.0</string>
+</dict>
+</plist>

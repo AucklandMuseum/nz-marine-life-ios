@@ -1,0 +1,273 @@
+/* Font Weights */
+/* Colors */
+/* Breakpoints */
+/* Media Queries */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 400;
+}
+/* Hide unused fields */
+.invisible {
+  display: none;
+}
+img {
+  width: 100%;
+}
+img.inline {
+  margin-top: 6px;
+}
+header {
+  text-align: center;
+}
+.info-container {
+  width: 100%;
+  padding: 0px 32px;
+}
+
+.invisible {
+    display: none;
+}
+
+@media (max-width: 568px) {
+  .info-container {
+    padding: 0px 12px;
+  }
+}
+.info-container .column {
+  width: 50%;
+  float: left;
+  padding-right: 2em;
+  padding-bottom: 60px;
+}
+@media (max-width: 568px) {
+  .info-container .column {
+    width: 100%;
+    padding-right: 0em;
+    padding-bottom: 0;
+  }
+}
+.native-constants {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 4px 4px 4px 7px;
+  border: 1px solid;
+  border-radius: 2px;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  color: #333333;
+  letter-spacing: 4px;
+  line-height: 12px;
+}
+h1 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: -0.25px;
+  word-spacing: -2px;
+}
+@media (max-width: 568px) {
+  h1 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+}
+@media (min-width: 569px) {
+  .native h1:after {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 4px 4px 4px 7px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    color: #333333;
+    letter-spacing: 4px;
+    line-height: 12px;
+    margin-top: 18px;
+    margin-left: 32px;
+    position: absolute;
+    display: inline-block;
+  }
+}
+h2 {
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 400;
+  margin: 12px 0px 0px 0px;
+}
+@media (max-width: 568px) {
+  h2 {
+    font-size: 17px;
+    line-height: 20px;
+    margin: 6px 0px 0px 0px;
+  }
+}
+h3 {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 200;
+  font-style: italic;
+  margin: 12px 0px 0px 0px;
+  color: #999999;
+}
+@media (max-width: 568px) {
+  h3 {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 6px 0px 0px 0px;
+  }
+}
+@media (max-width: 568px) {
+  .nativeBadge {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 4px 4px 4px 7px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 4px;
+    line-height: 12px;
+    display: inline-block;
+    margin: 20px auto;
+    color: #333333;
+  }
+}
+h4 {
+  font-size: 20px;
+  color: #333333;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+  margin: 12px 0px 0px 0px;
+}
+@media (max-width: 568px) {
+  h4 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 6px 0px 0px 0px;
+  }
+}
+h5 {
+  font-size: 14px;
+  color: #7f7f7f;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0;
+}
+small {
+  font-size: 12px;
+  line-height: 14px;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+table tr {
+  line-height: 24px;
+}
+table th {
+  float: left;
+}
+table td {
+  border-top: 1px solid #e5e5e5;
+  padding-bottom: 5px;
+}
+img.info,
+img.close {
+  width: auto;
+  float: right;
+  cursor: pointer;
+}
+img.close {
+  padding: 6px;
+}
+.endangered-status p {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.endangered-status p small {
+  margin-right: 6px;
+}
+.track {
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 6px;
+  margin-bottom: 1em;
+}
+.track span {
+  height: 6px;
+  display: block;
+}
+/* red */
+span.Critically.endangered,
+span.Critically.Endangered,
+span.endangered,
+span.Endangered,
+span.threatened,
+span.Threatened {
+  width: 20%;
+  background-color: red;
+}
+/* orange */
+span.vulnerable,
+span.Vulnerable,
+span.Near.threatened,
+span.Near.Threatened {
+  width: 60%;
+  background: #ff6600;
+}
+/* green */
+span.Not.threatened,
+span.Not.Threatened,
+span.Least.concern,
+span.Least.Concern {
+  width: 100%;
+  background: green;
+}
+.overlay {
+  background-color: #333333;
+  opacity: 0.25;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+.note {
+  background-color: white;
+  display: block;
+  margin-bottom: 1em;
+}
+.note a {
+  color: inherit;
+  display: inline-block;
+}
+.note img.ext-link {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-top: 2px;
+  vertical-align: top;
+  margin-left: 6px;
+}

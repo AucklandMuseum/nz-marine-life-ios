@@ -1,0 +1,66 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="initial-scale=1">
+	<script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function(){
+		function closeNote(){
+			$('.note').hide();
+			$('.overlay').hide();
+		}
+
+		$('img.info').click(function() {
+		  var id = $(this).attr('id');
+		  console.log( id );
+		  var noteId = '#' + id + '-note';
+		  console.log( noteId );
+		  $(noteId).show();
+		  $('.overlay').show();
+		});
+
+		$('.close, .overlay').click(function(){
+			closeNote();
+		});
+
+	});
+	</script>
+</head>
+<body>
+	<div class="overlay"></div>
+	<div class="info-container">
+		<div class="column"> 
+
+			<div class="endangered-status">
+				<h5>Endangered Status</h5>
+				<p><small>National:</small> <%ncs%></p>
+				<div class="track"><span class="<%ncs%>"></span></div>
+
+				<div class="note">
+					<h5>Source</h5>
+						<div class="note-body">
+							<a href="http://www.doc.govt.nz/about-us/science-publications/conservation-publications/nz-threat-classification-system/">Department of Conservation Threat Classification List<img class="ext-link" src="images/icons/ext-link.svg"></a>
+						</div>
+				</div>
+
+				<p><small>Worldwide:</small> <%wcs%></p>
+				<div class="track"><span class="<%wcs%>"></span> </div>
+
+				<div class="note">
+					<h5>Source</h5>
+					<div class="note-body">
+							<a href="http://www.iucnredlist.org/">Worldwide:
+								IUCN Red List of Threatened Species<img class="ext-link" src="images/icons/ext-link.svg"></a>
+							</p>
+						</div>
+					</div>
+			</div>
+
+			
+		</div>
+
+	</div>
+	
+</body>
+</html>

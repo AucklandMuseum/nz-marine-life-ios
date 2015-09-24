@@ -1,0 +1,319 @@
+/* Font Weights */
+/* Colors */
+/* Breakpoints */
+/* Media Queries */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 400;
+}
+/* Hide unused fields */
+.invisible {
+  display: none;
+}
+img {
+  width: 100%;
+}
+img.inline {
+  margin-top: 6px;
+}
+header {
+  text-align: center;
+}
+.info-container {
+  width: 100%;
+  padding: 0px 32px;
+}
+@media (max-width: 568px) {
+  .info-container {
+    padding: 0px 12px;
+  }
+}
+.info-container .column {
+  width: 50%;
+  float: left;
+  padding-right: 2em;
+  padding-bottom: 60px;
+}
+@media (max-width: 568px) {
+  .info-container .column {
+    width: 100%;
+    padding-right: 0em;
+    padding-bottom: 0;
+  }
+}
+.native-constants {
+  content: 'NATIVE';
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 4px 4px 4px 7px;
+  border: 1px solid;
+  border-radius: 2px;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  color: #333333;
+  letter-spacing: 4px;
+  line-height: 12px;
+}
+h1 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 500;
+  margin: 0 auto;
+  letter-spacing: -0.25px;
+  word-spacing: -2px;
+  max-width: 80%;
+}
+@media (max-width: 568px) {
+  h1 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+}
+@media (min-width: 569px) {
+  .nativeBadge {
+    content: 'NATIVE';
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 4px 4px 4px 7px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    color: #333333;
+    letter-spacing: 4px;
+    line-height: 12px;
+    margin-top: 16px;
+    margin-left: 32px;
+    position: absolute;
+    display: inline-block;
+  }
+}
+.nativeBadge.below {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  position: static;
+  display: none;
+  margin-left: auto;
+}
+h2 {
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 400;
+  margin: 12px 0px 0px 0px;
+}
+@media (max-width: 568px) {
+  h2 {
+    font-size: 17px;
+    line-height: 20px;
+    margin: 6px 0px 0px 0px;
+  }
+}
+h3 {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 200;
+  font-style: italic;
+  margin: 12px 0px 0px 0px;
+  color: #999999;
+}
+@media (max-width: 568px) {
+  h3 {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 6px 0px 0px 0px;
+  }
+}
+@media (max-width: 568px) {
+  .native h3:after {
+    content: 'NATIVE';
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 4px 4px 4px 7px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 4px;
+    line-height: 12px;
+    display: block;
+    max-width: 60px;
+    margin: 12px auto;
+    color: #333333;
+  }
+}
+h4 {
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: 0.25px;
+  line-height: 30px;
+  font-weight: 200;
+  text-align: left;
+  margin: 12px 0px 0px 0px;
+}
+@media (max-width: 568px) {
+  h4 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 6px 0px 0px 0px;
+  }
+}
+h5 {
+  font-size: 14px;
+  color: #7f7f7f;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0;
+}
+small {
+  font-size: 12px;
+  line-height: 14px;
+}
+small.left-col {
+  width: 33%;
+  display: inline-block;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+table tr {
+  line-height: 24px;
+}
+table th {
+  float: left;
+}
+table td {
+  border-top: 1px solid #e5e5e5;
+  padding-bottom: 5px;
+}
+img.info,
+img.close {
+  width: auto;
+  float: right;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+img.close {
+  margin: 6px;
+}
+.endangered-status p {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.track {
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 6px;
+  margin-bottom: 1em;
+}
+.track span {
+  height: 6px;
+  display: block;
+}
+/* red */
+span.Critically.endangered,
+span.Critically.Endangered,
+span.endangered,
+span.Endangered,
+span.threatened,
+span.Threatened {
+  width: 20%;
+  background-color: red;
+}
+/* orange */
+span.vulnerable,
+span.Vulnerable,
+span.Near.threatened,
+span.Near.Threatened {
+  width: 60%;
+  background: #ff6600;
+}
+/* green */
+span.Not.threatened,
+span.Not.Threatened,
+span.Least.concern,
+span.Least.Concern {
+  width: 100%;
+  background: green;
+}
+.overlay {
+  background-color: #ffffff;
+  opacity: 0.0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+.overlay.show {
+  opacity: 0.6;
+  pointer-events: auto;
+}
+.note {
+  background-color: white;
+  width: 320px;
+  border-radius: 10px;
+  position: absolute;
+  right: 58px;
+  display: none;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  background-clip: content-box;
+}
+@media (max-width: 568px) {
+  .note {
+    right: 12px;
+  }
+}
+.note h5 {
+  margin-top: 0;
+  border-bottom: 1px solid #c3c3c3;
+  text-align: center;
+  line-height: 32px;
+  font-size: 17px;
+  color: #333333;
+  padding-left: 32px;
+}
+.note .note-body {
+  padding-top: 12px;
+}
+.note p {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 14px;
+  line-height: 21px;
+}
+.note a {
+  color: inherit;
+  display: inline-block;
+}
+.note img.ext-link {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-top: 2px;
+  vertical-align: top;
+  margin-left: 6px;
+}

@@ -1,0 +1,190 @@
+/* Font Weights */
+/* Colors */
+/* Dimensions */
+.invisible {
+  display: none;
+}
+.hidden {
+  visibility: hidden;
+}
+.positioning {
+  position: absolute;
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+}
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url('../ipadimages/fish-resized.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#explore {
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 42px;
+  text-align: center;
+}
+#explore-button {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 16px 24px;
+  font-size: 20px;
+  line-height: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 4px;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  text-decoration: none;
+}
+#explore-button img {
+  display: inline;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+#acknowledgements-indicator {
+  left: 5%;
+  bottom: 0;
+  right: 5%;
+  height: 42px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  box-sizing: border-box;
+}
+#acknowledgements-indicator a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+  line-height: 42px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+#acknowledgements {
+  top: 100%;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.25) 30%);
+}
+#acknowledgements .credits {
+  margin-bottom: 1em;
+}
+#acknowledgements .credits h6,
+#acknowledgements .credits p {
+  float: left;
+}
+#acknowledgements .credits p {
+  width: 75%;
+}
+#acknowledgements .credits h6 {
+  clear: both;
+  margin: 0;
+  width: 25%;
+  font-weight: normal;
+  font-size: 12px;
+}
+/* Breakpoints */
+/* Media Queries */
+h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 75px;
+  line-height: 75px;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+@media (max-width: 568px) {
+  h1 {
+    font-size: 42px;
+    line-height: 64px;
+  }
+}
+h2 {
+  font-size: 17px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+@media (max-width: 568px) {
+  h2 {
+    font-size: 12px;
+  }
+}
+h3 {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+}
+#intro {
+  opacity: 0.9;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  max-width: 450px;
+  margin-top: 24px;
+}
+#logo {
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  width: 150px;
+}
+#logo img {
+  width: 100%;
+}
+@media (max-width: 568px) {
+  #logo {
+    margin-top: 64px;
+  }
+}
+#acknowledgements {
+  font-size: 16px;
+  line-height: 24px;
+}
+#acknowledgements .credits:before,
+#acknowledgements .credits:after {
+  content: " ";
+  display: table;
+}
+#acknowledgements .credits:after {
+  clear: both;
+}
+#acknowledgements h5 {
+  font-weight: 300;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  font-size: 16px;
+  line-height: 18px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  margin-top: 32px;
+}
+#acknowledgements a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 170, 255, 0.5);
+}

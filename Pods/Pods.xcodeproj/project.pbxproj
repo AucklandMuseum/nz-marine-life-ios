@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F4A77CD935D9F3D26F4A28E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9CC1C8712688F3E75824BE /* Foundation.framework */; };
+		1EA2FFA4025547D97F615E86 /* XKPhotoScrollViewAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D053FB8F031E45C7ED4246 /* XKPhotoScrollViewAnimatedTransitioning.m */; };
+		5F8687B0AF4D5BD8F62D1DBD /* XKPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7765D1C8309929A5042F9F /* XKPhotoScrollView.m */; };
+		63D21777DEB894CE11D74930 /* XKPhotoScrollViewAnimatedTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3922B497EB229703601D23 /* XKPhotoScrollViewAnimatedTransitioning.h */; };
+		93D678323E8C9BC374588112 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F9B3ED0741D2F96F49ED85 /* Pods-dummy.m */; };
+		AD9C0BC3E5519BADACA04F15 /* Pods-XKPhotoScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FC492DA46DFDEDCE99EF8D /* Pods-XKPhotoScrollView-dummy.m */; };
+		D44976A61C650B0F7A8AB40C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9CC1C8712688F3E75824BE /* Foundation.framework */; };
+		D871FB6B4EB50606C8F40A4B /* XKPhotoScrollViewViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = 4278B3DAF73011B270041E7B /* XKPhotoScrollViewViewState.h */; };
+		D9D769C65E2EBDECE9383A8A /* XKPhotoScrollViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D90A6F4C79FC5D4623F5246 /* XKPhotoScrollViewDelegate.h */; };
+		E2A4A6755484D091D5BD5F94 /* XKPhotoScrollViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1C683C6D352C1E9B432F3F /* XKPhotoScrollViewDataSource.h */; };
+		F386AC2F7B263C32B9C2B943 /* XKPhotoScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = C192ECB517ED95D45B13CB60 /* XKPhotoScrollView.h */; };
+		F54E4A36D5F79C067430C4BE /* XKPhotoScrollViewViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9F85B1D84C6D8F2D4981DE /* XKPhotoScrollViewViewState.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C610D73D5411C93DF178C021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9191AF7F055FB9B7C8D1437C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8868B266386E56642896AC7F;
+			remoteInfo = "Pods-XKPhotoScrollView-XKPhotoScrollView";
+		};
+		CE0C5A759D30CA7131296E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9191AF7F055FB9B7C8D1437C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C5AABEFD960934152D92E5F;
+			remoteInfo = "Pods-XKPhotoScrollView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0081B383A8212C56485CE38E /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/GGLCore/Public/Core.h; sourceTree = "<group>"; };
+		05CC2CD570C283F8818D5364 /* GGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLContext.h; path = Headers/GGLCore/Public/GGLContext.h; sourceTree = "<group>"; };
+		08CF9B3B23B80D8B74A3861B /* libGTM_AddressBook.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_AddressBook.a; path = Libraries/libGTM_AddressBook.a; sourceTree = "<group>"; };
+		0BF1D9ED09E6D12B9FF64E3D /* Pods.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.distribution.xcconfig; sourceTree = "<group>"; };
+		15D053FB8F031E45C7ED4246 /* XKPhotoScrollViewAnimatedTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKPhotoScrollViewAnimatedTransitioning.m; path = Pod/Classes/XKPhotoScrollViewAnimatedTransitioning.m; sourceTree = "<group>"; };
+		16F9B3ED0741D2F96F49ED85 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		17F0B7A19D0C23E7FD46C047 /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Headers/Public/GAITrackedViewController.h; sourceTree = "<group>"; };
+		196ED834C54F60128478B504 /* libGGLCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLCore.a; path = Libraries/libGGLCore.a; sourceTree = "<group>"; };
+		1ADA07B3F5B744228685311C /* libGTM_UIFont+LineHeight.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_UIFont+LineHeight.a"; path = "Libraries/libGTM_UIFont+LineHeight.a"; sourceTree = "<group>"; };
+		1CBE85C301DC8EED31021C44 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		1DDAAE330FD420DE97146E0B /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = Headers/Public/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		216ED01093B59801EDC6F361 /* libGTMSessionFetcher_full.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_full.a; path = Libraries/libGTMSessionFetcher_full.a; sourceTree = "<group>"; };
+		274F625D7B8BD78AD592979D /* GGLConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLConfiguration.h; path = Headers/GGLCore/Public/GGLConfiguration.h; sourceTree = "<group>"; };
+		2790D5DC863BD4598304F697 /* GGLErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLErrorCode.h; path = Headers/GGLCore/Public/GGLErrorCode.h; sourceTree = "<group>"; };
+		2B86FF5389A693A89C89F887 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		2BA3FAFA669D507E7E19F892 /* Pods-XKPhotoScrollView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKPhotoScrollView-Private.xcconfig"; sourceTree = "<group>"; };
+		300BC8283F82CA776E3E6662 /* libGTM_Regex.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_Regex.a; path = Libraries/libGTM_Regex.a; sourceTree = "<group>"; };
+		30AA0B10582F00114E091304 /* Pods-XKPhotoScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKPhotoScrollView.xcconfig"; sourceTree = "<group>"; };
+		36A8E13BC64ACBBDD427D06B /* libGTM_SystemVersion.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_SystemVersion.a; path = Libraries/libGTM_SystemVersion.a; sourceTree = "<group>"; };
+		37A04F2CD54850090CBA5034 /* libGTM_RoundedRectPath.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_RoundedRectPath.a; path = Libraries/libGTM_RoundedRectPath.a; sourceTree = "<group>"; };
+		3B9CC1C8712688F3E75824BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E35C6004A8F2B2B327BE526 /* libGTMStackTrace.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMStackTrace.a; path = Libraries/libGTMStackTrace.a; sourceTree = "<group>"; };
+		3F1C683C6D352C1E9B432F3F /* XKPhotoScrollViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKPhotoScrollViewDataSource.h; path = Pod/Classes/XKPhotoScrollViewDataSource.h; sourceTree = "<group>"; };
+		4278B3DAF73011B270041E7B /* XKPhotoScrollViewViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKPhotoScrollViewViewState.h; path = Pod/Classes/XKPhotoScrollViewViewState.h; sourceTree = "<group>"; };
+		51514165C9C04CF95720CE89 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Headers/Public/GAITracker.h; sourceTree = "<group>"; };
+		5BC299CE7B33233990AE05C8 /* Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Analytics.h; path = Headers/GGLAnalytics/Public/Analytics.h; sourceTree = "<group>"; };
+		693B460F77C46FAA63F2D06C /* libGTM_StringEncoding.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_StringEncoding.a; path = Libraries/libGTM_StringEncoding.a; sourceTree = "<group>"; };
+		6B6CC4C81D273D33B0E1EAA4 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		7B3922B497EB229703601D23 /* XKPhotoScrollViewAnimatedTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKPhotoScrollViewAnimatedTransitioning.h; path = Pod/Classes/XKPhotoScrollViewAnimatedTransitioning.h; sourceTree = "<group>"; };
+		804FD1175CFEEEE27C6BD45E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		808AD2433C7D8BB1DE8A0BFD /* libGTM_NSDictionary+URLArguments.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_NSDictionary+URLArguments.a"; path = "Libraries/libGTM_NSDictionary+URLArguments.a"; sourceTree = "<group>"; };
+		839DC520129A5D3205876F55 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		87BE97565B5C74DE470BAD8C /* libGTM_NSScannerJSON.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSScannerJSON.a; path = Libraries/libGTM_NSScannerJSON.a; sourceTree = "<group>"; };
+		8D90A6F4C79FC5D4623F5246 /* XKPhotoScrollViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKPhotoScrollViewDelegate.h; path = Pod/Classes/XKPhotoScrollViewDelegate.h; sourceTree = "<group>"; };
+		8EAF17C40EB737A65CB4C475 /* libGTM_NSStringXML.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringXML.a; path = Libraries/libGTM_NSStringXML.a; sourceTree = "<group>"; };
+		917FF41DD6F2E105221DC0B6 /* libGTM_iPhone.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_iPhone.a; path = Libraries/libGTM_iPhone.a; sourceTree = "<group>"; };
+		95E6160D3DFCD237F5A5EC71 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = Headers/Public/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		99728D8CF69FB0664C5DBCFA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9A3340BD8E01D3C9755B1292 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = Headers/Public/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		9A83649A3B92D35BEDF8F1D0 /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Headers/Public/GAI.h; sourceTree = "<group>"; };
+		9AC9DD84B1200EB68D1FD029 /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = Headers/Public/GAIFields.h; sourceTree = "<group>"; };
+		9B1ADF5A164360FC5140A234 /* libPods-XKPhotoScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKPhotoScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C6597BAEC8AA99A604BED3 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = Libraries/libGoogleAnalytics.a; sourceTree = "<group>"; };
+		A13CB4A8D77BFEFC19E8FCC1 /* Pods-XKPhotoScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKPhotoScrollView-prefix.pch"; sourceTree = "<group>"; };
+		A467B2B3A595053628E5AB4B /* libGTM_GTMURLBuilder.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_GTMURLBuilder.a; path = Libraries/libGTM_GTMURLBuilder.a; sourceTree = "<group>"; };
+		A6CCD09F9134A01E1374D886 /* libGSDK_Overload.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGSDK_Overload.a; path = Libraries/libGSDK_Overload.a; sourceTree = "<group>"; };
+		B7BBCCB9B27879863D4C4E5B /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		B8B9C6237CD6E2B6F2AFFAFA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA7765D1C8309929A5042F9F /* XKPhotoScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKPhotoScrollView.m; path = Pod/Classes/XKPhotoScrollView.m; sourceTree = "<group>"; };
+		BC62275241C47DD8D38E7952 /* libGGLAnalytics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLAnalytics.a; path = Libraries/libGGLAnalytics.a; sourceTree = "<group>"; };
+		C192ECB517ED95D45B13CB60 /* XKPhotoScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKPhotoScrollView.h; path = Pod/Classes/XKPhotoScrollView.h; sourceTree = "<group>"; };
+		C1D9524E2D82DEA40F9B8105 /* libGTM_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_core.a; path = Libraries/libGTM_core.a; sourceTree = "<group>"; };
+		C745F8134764413F600CAF74 /* XKPhotoScrollView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKPhotoScrollView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B843E69B968F7CF25BBE4F /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8FC492DA46DFDEDCE99EF8D /* Pods-XKPhotoScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKPhotoScrollView-dummy.m"; sourceTree = "<group>"; };
+		CD056420BCF6A4959B4DDB20 /* libGTM_NSStringHTML.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringHTML.a; path = Libraries/libGTM_NSStringHTML.a; sourceTree = "<group>"; };
+		CFF51E914F34A871F70C7DE1 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = Headers/Public/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		D904F7D73552954B61E49948 /* libGTMSessionFetcher_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_core.a; path = Libraries/libGTMSessionFetcher_core.a; sourceTree = "<group>"; };
+		DD9F85B1D84C6D8F2D4981DE /* XKPhotoScrollViewViewState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKPhotoScrollViewViewState.m; path = Pod/Classes/XKPhotoScrollViewViewState.m; sourceTree = "<group>"; };
+		E0BCDE6B0D56B4452424F0EF /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = Headers/Public/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		E11F9F55ED09EB95CA730F52 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Headers/Public/GAILogger.h; sourceTree = "<group>"; };
+		E19F18AE0CADBEE93FFA9EE2 /* GGLContext+Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GGLContext+Analytics.h"; path = "Headers/GGLAnalytics/Public/GGLContext+Analytics.h"; sourceTree = "<group>"; };
+		EC7C1F1688D33471C4FE960F /* libGTM_DebugUtils.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_DebugUtils.a; path = Libraries/libGTM_DebugUtils.a; sourceTree = "<group>"; };
+		F382BB50A126410D31C222A5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F476DFE427CB3CBDC7236D42 /* Pods.app store distribtuion.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods.app store distribtuion.xcconfig"; sourceTree = "<group>"; };
+		FD0E01AEF928E3AB412FEA86 /* libGTM_KVO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_KVO.a; path = Libraries/libGTM_KVO.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C4B571728E567C141D32FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44976A61C650B0F7A8AB40C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8984EAA96AC90E7AC49625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F66E20B25EAC08415856A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4A77CD935D9F3D26F4A28E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0637596246861AFFE85001C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E35C6004A8F2B2B327BE526 /* libGTMStackTrace.a */,
+				08CF9B3B23B80D8B74A3861B /* libGTM_AddressBook.a */,
+				EC7C1F1688D33471C4FE960F /* libGTM_DebugUtils.a */,
+				A467B2B3A595053628E5AB4B /* libGTM_GTMURLBuilder.a */,
+				FD0E01AEF928E3AB412FEA86 /* libGTM_KVO.a */,
+				808AD2433C7D8BB1DE8A0BFD /* libGTM_NSDictionary+URLArguments.a */,
+				87BE97565B5C74DE470BAD8C /* libGTM_NSScannerJSON.a */,
+				CD056420BCF6A4959B4DDB20 /* libGTM_NSStringHTML.a */,
+				8EAF17C40EB737A65CB4C475 /* libGTM_NSStringXML.a */,
+				300BC8283F82CA776E3E6662 /* libGTM_Regex.a */,
+				37A04F2CD54850090CBA5034 /* libGTM_RoundedRectPath.a */,
+				693B460F77C46FAA63F2D06C /* libGTM_StringEncoding.a */,
+				36A8E13BC64ACBBDD427D06B /* libGTM_SystemVersion.a */,
+				1ADA07B3F5B744228685311C /* libGTM_UIFont+LineHeight.a */,
+				C1D9524E2D82DEA40F9B8105 /* libGTM_core.a */,
+				917FF41DD6F2E105221DC0B6 /* libGTM_iPhone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1573E711F958C26A93B04A55 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F52EAC4B4D3521279BCEFA63 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		2A3548CBE3DBB4ECE336A095 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30AA0B10582F00114E091304 /* Pods-XKPhotoScrollView.xcconfig */,
+				2BA3FAFA669D507E7E19F892 /* Pods-XKPhotoScrollView-Private.xcconfig */,
+				C8FC492DA46DFDEDCE99EF8D /* Pods-XKPhotoScrollView-dummy.m */,
+				A13CB4A8D77BFEFC19E8FCC1 /* Pods-XKPhotoScrollView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-XKPhotoScrollView";
+			sourceTree = "<group>";
+		};
+		2CEAEAB1D95D1765792984BF /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				5A7408BD14D17D08B20E6682 /* Base */,
+			);
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		3CA9E49D38DBD71B51977323 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				6972C5F7B236699002B45239 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		3EAD57F60D004654C1CB4B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				196ED834C54F60128478B504 /* libGGLCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49BEF175E9F22BEB64CA8043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B6CC4C81D273D33B0E1EAA4 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53038CA747C6B0C4F12226DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC62275241C47DD8D38E7952 /* libGGLAnalytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		531CBFFA026495A14D0A2FBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				804FD1175CFEEEE27C6BD45E /* Pods-acknowledgements.markdown */,
+				C8B843E69B968F7CF25BBE4F /* Pods-acknowledgements.plist */,
+				16F9B3ED0741D2F96F49ED85 /* Pods-dummy.m */,
+				2B86FF5389A693A89C89F887 /* Pods-environment.h */,
+				B7BBCCB9B27879863D4C4E5B /* Pods-resources.sh */,
+				F476DFE427CB3CBDC7236D42 /* Pods.app store distribtuion.xcconfig */,
+				839DC520129A5D3205876F55 /* Pods.debug.xcconfig */,
+				0BF1D9ED09E6D12B9FF64E3D /* Pods.distribution.xcconfig */,
+				99728D8CF69FB0664C5DBCFA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		583A31BAB3E548472DD1D266 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B9A792BB0CE0A96BE1C0769 /* Crashlytics */,
+				2CEAEAB1D95D1765792984BF /* Fabric */,
+				CCBA876BD638293CF99C3124 /* Google */,
+				FE410B7ED8787E3B32993FC2 /* GoogleAnalytics */,
+				3CA9E49D38DBD71B51977323 /* GoogleNetworkingUtilities */,
+				1573E711F958C26A93B04A55 /* GoogleSymbolUtilities */,
+				FB031F7458FDA4B34608B647 /* GoogleUtilities */,
+				C46ABDDE498982212458EF12 /* XKPhotoScrollView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A7408BD14D17D08B20E6682 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				49BEF175E9F22BEB64CA8043 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		5B9A792BB0CE0A96BE1C0769 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				B6A181BBE45F0405ED4B2C2D /* Frameworks */,
+			);
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		66FDB87F21D4C0201484529E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C745F8134764413F600CAF74 /* XKPhotoScrollView.bundle */,
+				F382BB50A126410D31C222A5 /* libPods.a */,
+				9B1ADF5A164360FC5140A234 /* libPods-XKPhotoScrollView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6972C5F7B236699002B45239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D904F7D73552954B61E49948 /* libGTMSessionFetcher_core.a */,
+				216ED01093B59801EDC6F361 /* libGTMSessionFetcher_full.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EB168A98B9BD70E73ACF7E1 = {
+			isa = PBXGroup;
+			children = (
+				B8B9C6237CD6E2B6F2AFFAFA /* Podfile */,
+				893F96213682585B790A3068 /* Frameworks */,
+				583A31BAB3E548472DD1D266 /* Pods */,
+				66FDB87F21D4C0201484529E /* Products */,
+				B0424BA326738810626FE70E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		893F96213682585B790A3068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33AA873CD61E993A348836F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD71A87881E16817C3D2CF52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C6597BAEC8AA99A604BED3 /* libGoogleAnalytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0424BA326738810626FE70E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				531CBFFA026495A14D0A2FBB /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6A181BBE45F0405ED4B2C2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CBE85C301DC8EED31021C44 /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C33AA873CD61E993A348836F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B9CC1C8712688F3E75824BE /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C46ABDDE498982212458EF12 /* XKPhotoScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C192ECB517ED95D45B13CB60 /* XKPhotoScrollView.h */,
+				BA7765D1C8309929A5042F9F /* XKPhotoScrollView.m */,
+				7B3922B497EB229703601D23 /* XKPhotoScrollViewAnimatedTransitioning.h */,
+				15D053FB8F031E45C7ED4246 /* XKPhotoScrollViewAnimatedTransitioning.m */,
+				3F1C683C6D352C1E9B432F3F /* XKPhotoScrollViewDataSource.h */,
+				8D90A6F4C79FC5D4623F5246 /* XKPhotoScrollViewDelegate.h */,
+				4278B3DAF73011B270041E7B /* XKPhotoScrollViewViewState.h */,
+				DD9F85B1D84C6D8F2D4981DE /* XKPhotoScrollViewViewState.m */,
+				2A3548CBE3DBB4ECE336A095 /* Support Files */,
+			);
+			path = XKPhotoScrollView;
+			sourceTree = "<group>";
+		};
+		CCBA876BD638293CF99C3124 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				FF01E76597A296CBCD8A97EE /* Analytics */,
+				DB6FE27AADD11451B1B50875 /* Core */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		DB6FE27AADD11451B1B50875 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0081B383A8212C56485CE38E /* Core.h */,
+				274F625D7B8BD78AD592979D /* GGLConfiguration.h */,
+				05CC2CD570C283F8818D5364 /* GGLContext.h */,
+				2790D5DC863BD4598304F697 /* GGLErrorCode.h */,
+				3EAD57F60D004654C1CB4B7B /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F52EAC4B4D3521279BCEFA63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6CCD09F9134A01E1374D886 /* libGSDK_Overload.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB031F7458FDA4B34608B647 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0637596246861AFFE85001C8 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		FE410B7ED8787E3B32993FC2 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				9A83649A3B92D35BEDF8F1D0 /* GAI.h */,
+				CFF51E914F34A871F70C7DE1 /* GAIDictionaryBuilder.h */,
+				95E6160D3DFCD237F5A5EC71 /* GAIEcommerceFields.h */,
+				9A3340BD8E01D3C9755B1292 /* GAIEcommerceProduct.h */,
+				1DDAAE330FD420DE97146E0B /* GAIEcommerceProductAction.h */,
+				E0BCDE6B0D56B4452424F0EF /* GAIEcommercePromotion.h */,
+				9AC9DD84B1200EB68D1FD029 /* GAIFields.h */,
+				E11F9F55ED09EB95CA730F52 /* GAILogger.h */,
+				17F0B7A19D0C23E7FD46C047 /* GAITrackedViewController.h */,
+				51514165C9C04CF95720CE89 /* GAITracker.h */,
+				AD71A87881E16817C3D2CF52 /* Frameworks */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		FF01E76597A296CBCD8A97EE /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				5BC299CE7B33233990AE05C8 /* Analytics.h */,
+				E19F18AE0CADBEE93FFA9EE2 /* GGLContext+Analytics.h */,
+				53038CA747C6B0C4F12226DE /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07F3E3EE376EEB1FF1F0A79B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F386AC2F7B263C32B9C2B943 /* XKPhotoScrollView.h in Headers */,
+				63D21777DEB894CE11D74930 /* XKPhotoScrollViewAnimatedTransitioning.h in Headers */,
+				E2A4A6755484D091D5BD5F94 /* XKPhotoScrollViewDataSource.h in Headers */,
+				D9D769C65E2EBDECE9383A8A /* XKPhotoScrollViewDelegate.h in Headers */,
+				D871FB6B4EB50606C8F40A4B /* XKPhotoScrollViewViewState.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C5AABEFD960934152D92E5F /* Pods-XKPhotoScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A67DC8627F6B42CDF79AEE /* Build configuration list for PBXNativeTarget "Pods-XKPhotoScrollView" */;
+			buildPhases = (
+				272DD666DA2660B97B1EEAC2 /* Sources */,
+				0C4B571728E567C141D32FC1 /* Frameworks */,
+				07F3E3EE376EEB1FF1F0A79B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50CFDC341884802FD67A357C /* PBXTargetDependency */,
+			);
+			name = "Pods-XKPhotoScrollView";
+			productName = "Pods-XKPhotoScrollView";
+			productReference = 9B1ADF5A164360FC5140A234 /* libPods-XKPhotoScrollView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8868B266386E56642896AC7F /* Pods-XKPhotoScrollView-XKPhotoScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66188CFF281C6A1A1BC537A6 /* Build configuration list for PBXNativeTarget "Pods-XKPhotoScrollView-XKPhotoScrollView" */;
+			buildPhases = (
+				58C5F801A188078D25CB45B9 /* Sources */,
+				6C8984EAA96AC90E7AC49625 /* Frameworks */,
+				E7C6C4BCC66475DC73C471C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-XKPhotoScrollView-XKPhotoScrollView";
+			productName = "Pods-XKPhotoScrollView-XKPhotoScrollView";
+			productReference = C745F8134764413F600CAF74 /* XKPhotoScrollView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F6854DC94D6EC1FB611E42CC /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CD7D5DD49894762293730B /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				FA9CAE54ABB2BBC8BCB51B19 /* Sources */,
+				F2F66E20B25EAC08415856A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A5D5B5E645FB2EE9CEABBFE /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = F382BB50A126410D31C222A5 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9191AF7F055FB9B7C8D1437C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 4E3BFF43F5539849F0CC3FA2 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7EB168A98B9BD70E73ACF7E1;
+			productRefGroup = 66FDB87F21D4C0201484529E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6854DC94D6EC1FB611E42CC /* Pods */,
+				1C5AABEFD960934152D92E5F /* Pods-XKPhotoScrollView */,
+				8868B266386E56642896AC7F /* Pods-XKPhotoScrollView-XKPhotoScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7C6C4BCC66475DC73C471C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272DD666DA2660B97B1EEAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9C0BC3E5519BADACA04F15 /* Pods-XKPhotoScrollView-dummy.m in Sources */,
+				5F8687B0AF4D5BD8F62D1DBD /* XKPhotoScrollView.m in Sources */,
+				1EA2FFA4025547D97F615E86 /* XKPhotoScrollViewAnimatedTransitioning.m in Sources */,
+				F54E4A36D5F79C067430C4BE /* XKPhotoScrollViewViewState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C5F801A188078D25CB45B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9CAE54ABB2BBC8BCB51B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D678323E8C9BC374588112 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50CFDC341884802FD67A357C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XKPhotoScrollView-XKPhotoScrollView";
+			target = 8868B266386E56642896AC7F /* Pods-XKPhotoScrollView-XKPhotoScrollView */;
+			targetProxy = C610D73D5411C93DF178C021 /* PBXContainerItemProxy */;
+		};
+		7A5D5B5E645FB2EE9CEABBFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XKPhotoScrollView";
+			target = 1C5AABEFD960934152D92E5F /* Pods-XKPhotoScrollView */;
+			targetProxy = CE0C5A759D30CA7131296E5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		258B9BF6C323BDB0B4910490 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF1D9ED09E6D12B9FF64E3D /* Pods.distribution.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Distribution;
+		};
+		410B32EFFB3FFE2C1431ABEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5102650C54A09D729F79EDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA3FAFA669D507E7E19F892 /* Pods-XKPhotoScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = XKPhotoScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		582DEA65DBD6D99EA9AF504F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "DISTRIBUTION=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		5B1DD218B08F559406F4E764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA3FAFA669D507E7E19F892 /* Pods-XKPhotoScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = XKPhotoScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		75FAD2C9D65C3C696F2D5364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA3FAFA669D507E7E19F892 /* Pods-XKPhotoScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-XKPhotoScrollView/Pods-XKPhotoScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7C68791D77C45E6A0AA01E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA3FAFA669D507E7E19F892 /* Pods-XKPhotoScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-XKPhotoScrollView/Pods-XKPhotoScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B55A9B0E1AAD436E7FA4FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839DC520129A5D3205876F55 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8EC67D2B9237915916D7F46D /* App Store Distribtuion */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "APP_STORE_DISTRIBTUION=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store Distribtuion";
+		};
+		9CCBB6424022727535E7F76A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA3FAFA669D507E7E19F892 /* Pods-XKPhotoScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XKPhotoScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Distribution;
+		};
+		A74B473C59DFBD56B0A74841 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA3FAFA669D507E7E19F892 /* Pods-XKPhotoScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-XKPhotoScrollView/Pods-XKPhotoScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Distribution;
+		};
+		A9452ABFCC5E6DD159789E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99728D8CF69FB0664C5DBCFA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D2ED81EFB6C21FBB20437027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E4FCFFDCC6CA0C8B5A1AB623 /* App Store Distribtuion */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA3FAFA669D507E7E19F892 /* Pods-XKPhotoScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XKPhotoScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = "App Store Distribtuion";
+		};
+		E54FDF28A2C257059185E3A3 /* App Store Distribtuion */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA3FAFA669D507E7E19F892 /* Pods-XKPhotoScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-XKPhotoScrollView/Pods-XKPhotoScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "App Store Distribtuion";
+		};
+		F8267E88025AD5DE1492EDB9 /* App Store Distribtuion */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F476DFE427CB3CBDC7236D42 /* Pods.app store distribtuion.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "App Store Distribtuion";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38A67DC8627F6B42CDF79AEE /* Build configuration list for PBXNativeTarget "Pods-XKPhotoScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54FDF28A2C257059185E3A3 /* App Store Distribtuion */,
+				7C68791D77C45E6A0AA01E2B /* Debug */,
+				A74B473C59DFBD56B0A74841 /* Distribution */,
+				75FAD2C9D65C3C696F2D5364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3BFF43F5539849F0CC3FA2 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC67D2B9237915916D7F46D /* App Store Distribtuion */,
+				D2ED81EFB6C21FBB20437027 /* Debug */,
+				582DEA65DBD6D99EA9AF504F /* Distribution */,
+				410B32EFFB3FFE2C1431ABEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66188CFF281C6A1A1BC537A6 /* Build configuration list for PBXNativeTarget "Pods-XKPhotoScrollView-XKPhotoScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FCFFDCC6CA0C8B5A1AB623 /* App Store Distribtuion */,
+				5102650C54A09D729F79EDB6 /* Debug */,
+				9CCBB6424022727535E7F76A /* Distribution */,
+				5B1DD218B08F559406F4E764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CD7D5DD49894762293730B /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8267E88025AD5DE1492EDB9 /* App Store Distribtuion */,
+				8B55A9B0E1AAD436E7FA4FEC /* Debug */,
+				258B9BF6C323BDB0B4910490 /* Distribution */,
+				A9452ABFCC5E6DD159789E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9191AF7F055FB9B7C8D1437C /* Project object */;
+}

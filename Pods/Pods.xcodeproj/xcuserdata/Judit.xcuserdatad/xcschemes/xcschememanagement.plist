@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-XKPhotoScrollView-XKPhotoScrollView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-XKPhotoScrollView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1C5AABEFD960934152D92E5F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54DF4D6EFE8ABBC9554E8DA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8868B266386E56642896AC7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6854DC94D6EC1FB611E42CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

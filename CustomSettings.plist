@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TranslationLocaleIdentifier</key>
+	<string>mi_NZ</string>
+	<key>ToolbarTintBlue</key>
+	<integer>110</integer>
+	<key>ToolbarTintGreen</key>
+	<integer>66</integer>
+	<key>ToolbarTintRed</key>
+	<integer>10</integer>
+	<key>currentDataVersion</key>
+	<string>2.0</string>
+</dict>
+</plist>

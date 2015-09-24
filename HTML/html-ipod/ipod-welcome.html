@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="fade" data-state="<welcomeScreenStateString>">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0" />
+	<link rel="stylesheet" href="css/flickity.css">
+	<link rel="stylesheet" href="css/ipod-welcome-style.css" />
+	
+	
+	<script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+		
+		$(function() {
+			$('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top
+						}, 750);
+						return false;
+					}
+				}
+			});
+		});
+	
+	</script>
+</head>
+<body>
+	<div id="background"></div>
+
+	<div id="masthead" class="positioning">
+		<img id="logo" class="positioning" src="images/logos/am_clean.svg">
+
+		<h1 id="title" class="positioning">
+			<span>NZ Marine</span>
+			<span>Field Guide</span>
+		</h1>
+
+		<p id="intro" class="positioning">
+			Explore the fascinating and diverse marine life of New Zealand's coastlines. This app combines detailed animal and plant descriptions with stunning imagery to provide a valuable reference that can be used at home or in the field.
+		</p>
+	</div>
+
+	<div id="explore" class="positioning">
+		<a id="explore-button" class="button" href="inapp://start">Start Exploring<img src="images/icons/chevron.svg"></a>
+	</div>
+	
+	<div id="acknowledgements-indicator" class="positioning">
+		<a href="#acknowledgements">Acknowledgements</a>
+	</div>
+
+	<div id="acknowledgements" class="positioning">
+		<h4>Acknowledgements</h4>
+		
+		<h5>Produced by Auckland Museum</h5>
+		<div class="credits">
+			<div class="row">
+				<h6>Development Partners </h6>
+				<p><a href="http://www.dan.co.nz/">Digital Arts Network</a>, <a href="http://www.cactuslab.com/">Cactuslab</a></p>
+			</div>
+				
+			<div class="row">
+				<h6>Content Editor</h6>
+				<p>Wilma Blom</p>
+			</div>
+
+			<div class="row">
+				<h6>Species Profiles</h6>
+				<p>Wilma Blom, Severine Hannam, Rosemary Barraclough</p>
+			</div>
+		</div>
+
+		<p>Photographs in the app are taken by Auckland Museum staff as well as a number of external photographers and credited where appropriate.</p>
+
+		<h5>Source Code</h5>
+		<p>This app is built on <a href="http://museumvictoria.com.au/discoverycentre/mv-field-guide-app/">Museum Victoria’s open source code.</a></p>
+
+		<h5>Contact Us</h5>
+		<p>For any enquiries or requests to use media from this app, please visit the <a href="https://www.aucklandmuseum.com/nz-marine-life-app">New Zealand Marine Life Field Guide website</a> or email us at <a href="mailto:digital@aucklandmuseum.com">digital@aucklandmuseum.com</a>.</p>
+	</div>
+</body>
+</html>

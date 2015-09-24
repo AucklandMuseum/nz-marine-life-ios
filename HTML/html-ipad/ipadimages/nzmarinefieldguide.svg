@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="565px" height="139px" viewBox="0 0 565 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>nzmarine-gradient</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="13.7709888%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="41.8606505%"></stop>
+            <stop stop-color="#FFFFFF" offset="57.7487245%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Portrait" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="nzmarine-gradient" sketch:type="MSArtboardGroup" font-weight="bold" font-family="Helvetica Neue" line-spacing="74" letter-spacing="5" fill="url(#linearGradient-1)" sketch:alignment="middle" font-size="72">
+            <text id="NZ-MARINE-Copy" sketch:type="MSTextLayer">
+                <tspan x="26.272" y="55" fill="#FFFFFF">NZ MARINE</tspan>
+                <tspan x="-0.24" y="131" fill="#FFFFFF">FIELD GUID</tspan>
+                <tspan x="459.008" y="131" fill="#FFFFFF">E</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
