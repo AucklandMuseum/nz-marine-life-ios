@@ -1,4 +1,4 @@
-# Software license
+# License
 
 ## The images
 Images and audio in this package are Copyright © 2015 Auckland Museum. They are released under a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/)
